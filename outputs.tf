@@ -1,4 +1,4 @@
-output "website_url" {
-  description = "URL of the static website"
-  value       = aws_s3_bucket_website_configuration.website_config.website_endpoint
+output "cloudfront_url" {
+  description = "HTTPS URL of the CloudFront-served website"
+  value       = "https://${aws_cloudfront_distribution.website_cdn.domain_name}"
 }
