@@ -39,9 +39,11 @@ terraform output        # show the endpoint
 terraform destroy       # tear everything down
 ```
 
-## Live demo
+## Demo
 
-🔗 **Live site:** _add your S3 website endpoint here after `terraform apply`_
+![Live static website hosted on AWS S3](static-site-demo.png)
+
+*Static website served from the S3 bucket provisioned by Terraform.*
 
 ## What I learned / what it proves
 
